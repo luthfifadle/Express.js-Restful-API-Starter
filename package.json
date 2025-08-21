@@ -1,7 +1,7 @@
 {
-  "name": "vpc-api",
+  "name": "Express.js Restful API",
   "version": "1.0.0",
-  "description": "Viking Persib Club Ticketing API",
+  "description": "A lightweight and production-ready starter template for building RESTful APIs with Express.js.",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
