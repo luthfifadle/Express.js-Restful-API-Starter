@@ -27,7 +27,7 @@ app.use(requestLogger)
 app.use(ipWhitelist)
 app.get('/', (req, res) => {
     res.status(200).json({
-        message: 'VPC Ticketing API',
+        message: 'Restul API Starter Pack is Running',
         time: dayjs().format('YYYY-MM-DD HH:mm:ss'),
         timezone: dayjs.tz()['$x']['$timezone']
     })
